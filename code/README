@@ -1,0 +1,15 @@
+# Autonomous Vehicle Project Setup
+
+## Setting Up the Python Environment
+
+1. **Create a Virtual Environment:**
+   - Open PowerShell as Administrator and run:
+     ```powershell
+     python -m venv env
+     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+     .\env\Scripts\Activate.ps1
+     ```
+
+2. **Install Required Libraries:**
+   ```powershell
+   pip install numpy torch tensorflow deap
